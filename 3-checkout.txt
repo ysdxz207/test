@@ -1,0 +1,8 @@
+//创建分支
+git checkout -b branch_test1
+//切换分支
+git checkout branch_test1
+//删除分支
+git push origin --delete booking
+//基于分支创建分支
+git -checkout -b branch_test2 master

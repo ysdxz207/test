@@ -1,0 +1,4 @@
+git checkout master
+git merge branch_test
+//如果发生冲突，解决冲突
+git mergetool
