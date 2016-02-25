@@ -1,5 +1,7 @@
 //创建分支
 git checkout -b branch_test1
+//提交分支修改
+git push --set-upstream origin branch_test1
 //切换分支
 git checkout branch_test1
 //删除分支
