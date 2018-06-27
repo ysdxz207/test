@@ -17,9 +17,9 @@ public class Routes {
         Spark.staticFileLocation("static_resources");
 
 
-        get("/notify", ((request, response) ->
+        get("/test/notify", ((request, response) ->
                 IndexController.notify(request, response)));
-        post("/notify", ((request, response) ->
+        post("/test/notify", ((request, response) ->
                 IndexController.notify(request, response)));
     }
 }
